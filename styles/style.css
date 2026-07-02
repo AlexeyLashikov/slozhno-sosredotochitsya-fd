@@ -145,7 +145,8 @@
 .content-section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  column-gap: 40px;
+  row-gap: 20px;
   padding: 0 10px;
 }
 
@@ -252,11 +253,16 @@
     right: 32px;
   }
 
+  .header__theme-menu {
+    padding-bottom: 18px;
+  }
+
   .header__title {
     margin-inline-start: -20px;
   }
 
   .header__paragraph {
+    margin-top: 8px;
     max-inline-size: 364px;
   }
 
